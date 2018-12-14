@@ -1,0 +1,16 @@
+
+
+Run Scripts in This Order:
+1.) "1thru4_CombinedasFunctions.py"
+2.) "3SQL_Experiment.py"
+3.) Then run this query:
+
+{
+SELECT
+ *
+FROM
+ SurfMaster2
+ORDER BY
+ SurfMaster2.beach_name ASC,
+ SurfMaster2.date_ ASC;
+}
